@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>
+            INSERTING <AUDIO>
+            </title>
+            <body>
+                <audio controls autoplay>
+                    <source src="AUDIO 1 codingal.mp3" tpye="audio/mpeg">
+                    Your browser does not support this audio tag 
+                </audio>
+            </body>
+    </head>
+</html>
