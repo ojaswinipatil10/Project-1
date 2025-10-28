@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>
+        STUDENT TABLES
+    </title>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <th> name
+            </th>
+            <th> age
+            </th>
+            <th> class
+            </th>
+        </tr>
+        <tr>
+            <td>
+                John<br>
+                
+            </td>
+            <td>
+                12
+            </td>
+            <td>
+                A+
+            </td>
+        </tr>
+            <td>
+                Preeti<br>
+            </td>
+            <td>
+                13
+            </td>
+            <td>
+                A
+            </td>
+        </tr>
+            <td>
+                Sanika<br>
+            </td>
+            <td>
+                12
+            </td>
+            <td>
+                B
+            </td>
+        </tr>
+            <td>
+                Pooja<br>
+            </td>
+            <td>
+                13
+            </td>
+            <td>
+                B+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
