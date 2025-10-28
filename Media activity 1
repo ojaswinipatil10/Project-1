@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>
+            INSERTING AN IMAGE 
+        </title>
+        <body>
+            <img src="IMAGE 1 codingal.png" alt="Flower" width="200" height="200"/>
+            
+        </body>
+    </head>
+</html>
