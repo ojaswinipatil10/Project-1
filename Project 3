@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            LETS ADD IMAGES , VIDEOS AND AUDIOS
+        </title>
+        <body>
+            <h1> IMAGE TIME !!</h1>
+            <img src="flower 2 codingal.png" alt="Flower" width="200" height="200"/>
+
+<h1> AUDIO TIME !!!</h1>
+            <audio controls autoplay>
+                <source src="Audio 2 - codingal.mp3" type="audio/mpeg">
+                Your browser does not support this audio tag.
+            </audio>
+
+<h1> VIDEO TIME !!!</h1>
+            <video width="230" height="200" controls>
+                <source src="Video 2 - codingal.mp4" type="video/mp4">
+
+            </video>
+        </body>
+    </head></html>
+
+
