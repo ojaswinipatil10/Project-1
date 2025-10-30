@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>
+        FORM CREATION
+    </title>
+</head>
+    <body>
+        <form>
+            <fieldset>
+                <legend> Personal Information </legend>
+            
+            <h2>Personal Detail Form
+            </h2>
+            <label>name</label><br>
+            <input type ="text" id="name"><br><br>
+            <label>email id </label><br>
+            <input type ="text" id="email id"><br><br>
+            <label>contact number</label><br>
+            <input type="password" id="contact"><br><br>
+            <label>gender</label><br>
+            <input type="radio" id="female" name="gender" value="female">female<br><br>
+            <input type="radio" id="male" name="gender" value="male">male<br><br
+            <label>favourite city</label><br>
+            <input type="checkbox" id="dubai" name="favourite city" value="dubai">dubai<br><br>
+            <input type="checkbox" id="Abudhabi" name="favourite city" value="Abudhabi">Abudhabi<br><br>
+            <input type="submit">
+            </fieldset>`
+        </form>
+    </body>
+</html>
