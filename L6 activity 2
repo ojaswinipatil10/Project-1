@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>
+        Internal CSS
+    </title>
+    <style>
+    p{
+        color:  red; 
+    }
+    </style>
+</head>
+<body>
+   <p> Have A Great Day Ahead !!</p>  
+   
+</body>
+</html>
