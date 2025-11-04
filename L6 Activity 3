@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>
+        External CSS
+    </title>
+    <link rel= 'stylesheet' type='text/CSS' href='style.CSS'>
+</head>
+<body>
+    <p> Hope Your Day Was Great !</p>
+</body>
+</html>
