@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>
+        Hi there
+    </title>
+    <style>
+        #grad1 {
+            height: 450px ;
+            background: linear-gradient(purple , yellow , purple , yellow) ;
+        }
+        </style>
+        <body>
+            <div id= "grad1">
+            </div>
+        </body>
+</head>
+</html>
