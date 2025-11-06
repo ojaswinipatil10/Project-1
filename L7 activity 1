@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>
+        Background 
+    </title>
+    <style>
+        body {
+            background-color: blueviolet ;
+
+        }
+        </style>
+        </head>
+<body>
+    Hello , WELCOME!
+</body>
+</html>
