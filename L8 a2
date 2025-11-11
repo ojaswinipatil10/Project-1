@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>BORDER</title>
+        <style>
+            div { background-color: aquamarine;
+                font-size: 25px;
+                font-family:'Times New Roman' ,  Calibri, 'Trebuchet MS', sans-serif;
+                height: 80px;
+                width: 120px;
+                border: 10px solid blue;
+
+            }
+           #mydiv {
+            transform: rotateX('90');
+           }
+</style>
+    </head>
+    <body>
+        <div>Hello</div>
+        <div id="mydiv">
+            Youtube
+        </div>
+    </body>
+</html>
+            
