@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Hii</title>
+<link href="style3.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h2> Welcome to the Space Explorer</h2>
+    <ul>
+    <li>Pastels</li>
+    <li>Florals</li>
+    <li>Basics</li>
+    <li>Neon</li>
+    <li>Warm</li>
+    </ul>
+    <p> Here , You will be able to see some colors that mixmatch to 
+        create some new colors just like the Galaxy. </p>
+
+        <p> Basics , Warm , Neon , Pastels , Florals etc... are some mixmatches !
+        </p>
+        <a href="#"> Beginnn </a>
+         <a href="#">Select your colors and Mix</a>
+          <a href="#">And there You have created a brand new color of Your own!</a>
+</body>
+</html>
