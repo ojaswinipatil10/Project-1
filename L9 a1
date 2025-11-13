@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Hii</title>
+<link href="style2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h2> Welcome to the Space Explorer</h2>
+    <ul>
+    <li>Moon missions</li>
+    <li>Blackholes</li>
+    <li>Auroras</li>
+    <li>Constellation</li>
+    <li>Northern lights</li>
+    </ul>
+    <p> Here , You will be able to see some keyterms from the space world 
+        understanding their beauty in making the sky and the universe this 
+        preety.These are the shines of the Galaxy. </p>
+
+        <p> Auroras , Blackholes , Moon missions , Constellation , Northernm lights and 
+            much more are white and VERYYY bright.
+        </p>
+        <a href="#"> Join the journey </a>
+         <a href="#">Get the batch of Galaxy Lovers</a>
+          <a href="#">Explore a whole New - Bright world in which You already exist!</a>
+</body>
+</html>
