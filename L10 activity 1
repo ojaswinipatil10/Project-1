@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>
+        Welcome</title>
+<style type="text/css">
+    .example1{
+        width: 450px;
+        background-color: aquamarine;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+    .example2{
+        width: 390px;
+        background-color: bisque;
+        padding: 40px;
+        border: 8px solid brown;
+        margin: 30px 15px;
+    }
+    hr{
+        background-color: blueviolet;
+    }
+    </style>
+</head>
+    <body>
+        <h1>Box Model examples.</h1>
+        <hr>
+        <p class="example1">My content example 1 </p>
+        <hr style="width: 10%" ; height: 1px ; color="green";>
+         <p class="example2">My content example 2 </p>
+        <hr style="width: 10%" ; height: 1px ; color="blue";>
+    </body>
+</html>
