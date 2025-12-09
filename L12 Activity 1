@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title> POSITIONING</title>
+    <style>
+        div {
+            background-color: rgb(207, 150, 65);
+            padding: 10px;
+        }
+        div.first {
+            opacity: 0.1;
+        }
+        
+        div.second {
+            opacity: 0.3;
+        }
+
+        div.third {
+            opacity: 0.6;
+        }
+        </style>
+</head>
+<body>
+    <h1>The opacity property</h1>
+    <p>This how this property looks:</p>
+    <div class="first" >opacity 0.1</div>
+    <div class="second" >opacity 0.3</div>
+    <div class="third" >opacity 0.6</div>
+    <div><p>opacity 1 (default)</p></div>
+</body>
+</html>
