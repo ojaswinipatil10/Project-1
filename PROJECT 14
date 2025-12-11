@@ -1,0 +1,106 @@
+<html >
+
+<head>
+
+    <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width">
+
+<title>replit</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+
+<h1>Large Grid</h1>
+
+<p>NOT TRUE data</p>
+
+<p>Resize the browser window to see the effect.</p>
+
+<div class="row">
+
+<div class="col-lg-4" style="background-color:rgb(82, 18, 172);"><br><br>
+
+NOT TRUE
+
+</div>
+
+<div class="col-lg-8" style="background-color:rgb(85, 109, 27);"><br><br>
+
+NOT TRUE
+
+<title>Bootstrap Grid System</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport"
+
+content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src=
+
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+
+<style>
+
+.col {
+
+text-align:center;
+
+border:1px solid black;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<h3>Equal width column grid</h3><br>
+
+<div class="container"><br>
+
+<div class="row">
+
+<div class="col">
+
+column 1
+
+</div>
+
+<div class="col">
+
+column 2
+
+</div>
+
+<div class="col">
+
+column 3
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
