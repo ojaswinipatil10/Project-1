@@ -1,0 +1,58 @@
+
+<html>
+<head>
+    <title>LETS DECORATE A FEW TEXTS</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            background-color: yellow;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        .fruit-info {
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Highlight text</h1>
+
+        <p>Lets highlight the colors of different fruits <mark>highlight</mark></p>
+
+        <h1>Fruits Background</h1>
+
+        <p>Fruits can be of different colors, flavors and produced in different seasons.</p>
+
+        <h2>Lets name a few fruits and get to know about them :</h2>
+
+        <p class="fruit-info">Blueberries - Blue in color, sweet in taste</p>
+        <p class="fruit-info">Strawberry - Red in color, sweet and sour in taste</p>
+        <p class="fruit-info">Banana - Offwhite in color, sweet in taste</p>
+
+        <p>
+            The following fruits 
+            <code>red</code>, 
+            <code>blue</code>, 
+            and <code>offwhite</code>
+            tell us something about fruits.
+        </p>
+
+    </div>
+</body>
+</html>

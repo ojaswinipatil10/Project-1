@@ -24,8 +24,7 @@ content="width=device-width, initial-scale=1">
     <p>CO<sub>2</sub></p>
     <p>b<SUP>3</SUP></p>
     <div class="container">
-        <h1>Highlight text</h1>
-        <p>use the mark element to<mark>highlight</mark> text.</p>
+    
     </div>
     <div class="container">
         <h1>code snippets</h1>
