@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sam's Hobbies -</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+
+        h1 {
+            color: rgb(52, 52, 103);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            color: rgb(10, 58, 10);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style:  italic;
+        }
+
+        p {
+            color: rgb(116, 21, 21);
+            font-size: 16px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style:  italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Sam's Hobbies</h1>
+
+        <h2>Here are some of sam's hobbies</h2>
+
+        <p>
+          Sam is a very exciting , fun , creative and smart kid. He always likes to explore new hobbies and new activities . This makes him love almost everything , but a few of his favourites are listed below , It's gonna be fun to view them , Lets goooo!!!!!!!
+        </p>
+
+        <h2>Sam's Hobbies</h2>
+
+        <p>◆Playing sports</p>
+        <p>◆Singing</p>
+        <p>◆Painting</p>
+        <p>◆Cooking</p>
+        <p>◆Reading</p>
+
+    </div>
+
+</body>
+</html>
