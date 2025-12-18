@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Bootstarp utilities - BUTTONS AND JUMBOTRON</title>
+         <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <body style="text-align :center;">
+            <div class="Jumbotron Jumbotron-fluid">
+                <div class="container">
+                    <h1 style="color: rgb(229, 102, 17);">
+                        CODINGAL
+                    </h1>
+                    <p>Codingal will make coding easier , fun and interesting!</p>
+                </div>
+            </div>
+            <div class="container mt-4">
+                <h2>Buttons</h2>
+
+                <button type="button" class="btn btn-Primary">Primary</button>
+                 <button type="button" class="btn btn-Warning">Warning</button>
+                  <button type="button" class="btn btn-Success">Success</button>
+                   <button type="button" class="btn btn-Secondary">Secondary</button>
+                    <button type="button" class="btn btn-Danger">Danger</button>
+            </div>
+
+        </body>
+    </html>
