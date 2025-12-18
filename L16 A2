@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Bootstrap utilities - Badges</title>
+         
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Contextual Badges</h1>
+        <span class="badge badge-Primary">Primary</span>
+        <span class="badge badge-Danger">Danger</span>
+        <span class="badge badge-Warning">Warning</span>
+        <span class="badge badge-Dark">Dark</span>
+        <span class="badge badge-Light">Light</span>
+        <span class="badge badge-Success">Success</span>
+        <span class="badge badge-Secondary">Secondary</span>
+        <span class="badge badge-Info">Info</span>
+    </div>
+</body>
+</html>
