@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Bootstrap utilities-Progress bar</title>
+    
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h2>Progress Bar</h2>
+    <p>This is a progress bar , here you can see how far have u come or how far ur job /task is completed. This helps u to track ur work/task /job efficiently!</p>
+    <div class="progress">
+        <div class="progress-bar " style="width: 75%;">75%</div>
+
+    </div>
+    </div>
+</body>
+</html>
