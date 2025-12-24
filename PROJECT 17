@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Bootstrap utilities-Progress bar</title>
+    
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <body>
+        <body style="text-align :center; background-color: blanchedalmond;">
+            <div class="Jumbotron Jumbotron-fluid">
+                <div class="container">
+                    <h1 style="color: rgb(13, 37, 38); background-color: rgb(160, 86, 157);">
+                        COLORS
+                    </h1>
+                    <p>Colors enhance the dignity of our life and world !!</p>
+                </div>
+            </div>
+                <h3>Few colors are listed here </h3>
+                <button type="button" class="btn btn-Primary">Primary</button>
+                 <button type="button" class="btn btn-Warning">Warning</button> <br><br><br>
+
+                 <div class="container">
+        <h3>Few moreee colors</h3>
+        <span class="badge badge-Info">Info</span>
+        <span class="badge badge-Danger">Danger</span>
+        <span class="badge badge-Success">Success</span>
+        <span class="badge badge-Dark">Dark</span>
+        <span class="badge badge-Light">Light</span><br><br><br>
+       
+         <div class="container">
+        <h4>This will show you your progress of Knowing about colors through a Progress Bar</h4><br>
+    <p>This is a progress bar , here you can see how far have u come to knowing colors and their shades !!!</p>
+    <div class="progress">
+        <div class="progress-bar " style="width: 25%;">25%</div>
+
+    </div>
+                </div>
