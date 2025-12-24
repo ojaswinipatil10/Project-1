@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Bootstrap utilities- 2</title>
+    
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <body class="bg-Warning ; text-Bold;">
+    
+        <div class="container ">
+            <h2 class="text-Dark font-weight-italic ">EARTHS ROTATION !</h2>
+            <p class="text-Info font-weight-bold ">LETS EXPLORE!</p>
+            <ul class="Pagination">
+                <li class="page-items ">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-Info text-white" href="https://www.lpi.usra.edu/education/skytellers/day_night/">1</a>
+                   
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-Dark text-white" href="https://www.abc.net.au/education/earth-rotation-night-and-day/13802224">2</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-Info text-white" href="https://www.britannica.com/video/Earth-rotation-axis-revolution-Sun/-159380">3</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-Dark text-white" href="https://www.pbslearningmedia.org/resource/buac18-k2-sci-ess-daynightspace/earths-day-and-night-from-space/">4</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-Info text-white" href="https://www.scootle.edu.au/ec/resolve/view/L696">5</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </div>
