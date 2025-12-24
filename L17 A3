@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Bootstrap utilities- 2</title>
+    
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        
+        
+
+    <div class="container">
+            <h2>Pagination</h2>
+            <p>Enhance the great skill of coding</p>
+            <ul class="Pagination">
+                <li class="page-items">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-danger text-white" href="https://www.google.com/search?q=links+of+flower+images&oq=links+of+flower+images&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigAdIBCDUwMzFq">1</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-primary text-white" href="https://www.pexels.com/search/animal/">2</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-danger text-white" href="https://www.youtube.com">3</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-primary text-white" href="https://www.cmycubes.com/blogs/cmycubes/the-science-of-sunsets?srsltid=AfmBOop8I5B2UuhPQIKVDMj-mAVtHXjhqZx9T0iySZ2N6yRxf2X3BSF-">4</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-danger text-white" href="https://christiansforsocialaction.org/resource/discipline-watching-sunrise/">5</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link bg-primary text-white" href="https://greggvanourek.com/benefits-of-nature/">6</a>
+                </li>
+
+                <li class="page-items">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
