@@ -1,0 +1,20 @@
+<html>
+<body>
+    <button onclick="Largest()">Click here !</button>
+    <p id="Results"></p>
+    <script>
+        function Largest() {
+        var a = 12;
+        var b =7;
+        if (a>b) {
+            document.getElementById("Results") .innerHTML= a + "  Larger";
+        }
+           else {
+              document.getElementById("Results") .innerHTML= b + "Larger";
+           }
+        }
+        </script>
+</body>
+</html>
+
+        
