@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Bootstrap utilities- 2</title>
+    
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <h1 style="color: rgb(27, 81, 117); text-align: left ; background-color: antiquewhite; font-family: 'Times New Roman', Times, serif">
+        SAMS PROFILE 
+    </h1>
+    <div class="container">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="IMG 4 CODINGAL.png" alt="Card image cap">
+
+    <div class="card-body">
+      <h5 class="card-title">Sam</h5>
+      <p class="card-text">#Passionate about programming.
+                          #Loves to cook food.
+                          #Painting and singing are his hobbies.
+      </p>
+
+      <a href="#" class="btn btn-primary">View Profile</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
