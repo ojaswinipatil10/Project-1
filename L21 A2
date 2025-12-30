@@ -1,0 +1,15 @@
+<html>
+<body>
+<h2>JS for Loops </h2>
+<p id="demo"></p>
+<script>
+    var flowers = ["Jasmine" , "Rose" , "Sunflower" , "Marie" , "Lavender" , "Tulips" , "Daisy" , "Lillies"] ;
+    var text ="" ;
+    var i ;
+    for (i = 0 ; i <flowers.length ; i++) {
+        text += flowers[i] + "<br>" ;
+    }
+    document.getElementById("demo") .innerHTML = text ;
+    </script>
+</body>
+</html>
