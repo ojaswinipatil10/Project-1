@@ -1,0 +1,24 @@
+<html>
+<body>
+    <h2>JS String Methods</h2>
+    <p>Basic Methods</p>
+    <script>
+        var str= "AmAzInG" ;
+        document.write(str.toUpperCase()) ;
+        document.write("&nbsp")
+         document.write("&nbsp")
+         document.write(str.toLowerCase()) ;
+         document.write("&nbsp")
+          document.write("&nbsp")
+         a = (str.startsWith('t')) ;
+          document.write("&nbsp")
+       document.write(a) 
+
+        var str1= "I learnt about Methods !" ;
+        var patt= new RegExp("about") ;
+        var res = patt.test(str1) ;
+        document.write(res) ;
+   
+        </script>
+</body>
+</html>
