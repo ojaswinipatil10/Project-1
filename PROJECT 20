@@ -1,0 +1,23 @@
+<html>
+<body style="background-color: #b6c2eb; font-family: Arial;">
+
+<h2 style="color: #992d99; ">Tinu's Maths Solver</h2>
+<p style="font-size: larger; color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">A simple calculator for Tinu</p>
+
+<script>
+    var a = 3;
+    var b = 15;
+
+    var add = a + b;
+    var sub = a - b;
+    var mul = a * b;
+    var div = a / b;
+
+    document.write("<p style='color: green;'>Addition: " + add + "</p>");
+    document.write("<p style='color: black;'>Subtraction: " + sub + "</p>");
+    document.write("<p style='color: green;'>Multiplication: " + mul + "</p>");
+    document.write("<p style='color: black;'>Division: " + div + "</p>");
+</script>
+
+</body>
+</html>
