@@ -1,0 +1,27 @@
+<html>
+<body style="background-color:#ba915c; font-family: Arial;">
+
+<h3 style="color:#3e1a09; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Multiplication Function Examples</h3>
+
+<script>
+function multiply(a, b, color) {
+    if (b === undefined) {
+        document.write("<p style='color:red;'>Please enter two numbers.</p>");
+    } else {
+        document.write(
+          "<p style='color:" + color + ";'><b><i>" +
+          a + " × " + b + " = " + (a * b) +
+          "</i></b></p>"
+        );
+    }
+}
+
+multiply(2, 8, "black ; bold, italic");
+multiply(4, 9, "black ; bold , italic");
+multiply(6, 5, "black ; bold, italic");
+multiply(8, 4, "black ; bold, italic");
+multiply(9, 10, "black ; bold, italic");
+</script>
+
+</body>
+</html>
