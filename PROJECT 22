@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tinu's Simple Maths Solver</title>
+</head>
+<body style="background-color: #b6c2eb; font-family: Arial; text-align:center; padding:20px;">
+    <h2 style="color:#992d99;">Tinu's Maths Solver</h2>
+    <p style="color:#333333;">Simple Calculator for Addition & Multiplication</p>
+
+    <script>
+        // Numbers
+        var a = 3;
+        var b = 17;
+
+        // Addition
+        var sum = a + b;
+        document.write("<p style='color:green;'>Addition: " + a + " + " + b + " = " + sum + "</p>");
+
+        // Multiplications with different numbers
+        document.write("<p style='color:blue;'>3 × 4 = " + (3*4) + "</p>");
+        document.write("<p style='color:orange;'>5 × 6 = " + (5*6) + "</p>");
+        document.write("<p style='color:red;'>7 × 8 = " + (7*8) + "</p>");
+        document.write("<p style='color:purple;'>2 × 9 = " + (2*9) + "</p>");
+        document.write("<p style='color:brown;'>10 × 11 = " + (10*11) + "</p>");
+    </script>
+</body>
+</html>
