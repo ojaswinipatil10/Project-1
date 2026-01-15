@@ -1,0 +1,16 @@
+<html>
+<body>
+    <h2>Methods in JS Array</h2>
+    <h2>join() and pop()</h2>
+    <p> The join() method joins array elements into a string and the pop() methods removes the last element from an array.</p>
+    <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+            <p id="mysecondpop"></p>
+            <script>
+                var flowers =["Lily", "Hibiscous" , "Rose" , "Lotus"];
+                document.getElementById("myjoin").innerHTML = flowers.join ("*");
+                                document.getElementById("myfirstpop").innerHTML = flowers.pop();
+                                                document.getElementById("mysecondpop").innerHTML = flowers;
+                                                </script>
+</body>
+</html>
