@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>JS Array Methods</title>
+</head>
+
+<body style="background-color:#fff0f5; font-family: Arial;">
+
+    <h2 style="color:#13030b; text-align:center;">
+        Methods in JS Array
+    </h2>
+
+    <h3 style="color:#bd89e3; text-align:center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        JOIN() and POP()
+    </h3>
+
+    <p id="myjoin" style="color:#034c52; font-size:18px; font-family: Georgia, 'Times New Roman', Times, serif;"></p>
+    <p id="myfirstpop" style="color:#601010; font-size:18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"></p>
+    <p id="mysecondpop" style="color:#030341; font-size:18px; font-family: Georgia, 'Times New Roman', Times, serif;"></p>
+
+    <script>
+        var Colors = ["Turquoise", "Red", "Rose Pink", "Lavender"];
+
+        document.getElementById("myjoin").innerHTML =
+        ":- " + Colors.join("*");
+
+        document.getElementById("myfirstpop").innerHTML =
+        ":- " + Colors.pop();
+
+        document.getElementById("mysecondpop").innerHTML =
+        ":- " + Colors;
+    </script>
+
+</body>
+</html>
+
