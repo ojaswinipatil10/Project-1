@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>DOM Value Transfer</title>
+</head>
+<body>
+
+    <h2>Assign value from one node to another</h2>
+
+    <input type="text" id="source" value="Hello World">
+    <br><br>
+
+    <p id="target">Text will appear here</p>
+
+    <button onclick="copyText()">Copy Here</button>
+
+    <!-- External JavaScript -->
+    <script src="SCRIPT.js"></script>
+
+</body>
+</html>
+
