@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Inheritance</title>
+    <style>
+        body {
+            background-color: #6d96ba;
+            font-family: Arial;
+            text-align: center;
+        }
+        h2 {
+            color: #ded899;
+        }
+        p {
+            color: #120101;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #output {
+            background-color: #c6c65c;
+            border: 2px solid #6b9c6d;
+            padding: 10px;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>JS Class Inheritance</h2>
+<p>Using static and non-static methods</p>
+
+<div id="output"></div>
+
+<script>
+    class Parent {
+        constructor(name) {
+            this.name = name;
+        }
+
+        // Non-static method
+        greet() {
+            return "Hello, I am " + this.name;
+        }
+
+        // Static method
+        static info() {
+            return "This is a Parent class";
+        }
+    }
+
+    class Child extends Parent {
+        constructor(name, age) {
+            super(name);
+            this.age = age;
+        }
+
+        show() {
+            return this.greet() + " and I am " + this.age + " years old";
+        }
+    }
+
+    let obj = new Child("Tina", 15);
+
+    document.getElementById("output").innerHTML =
+        obj.show() + "<br>" +
+        Parent.info();
+</script>
+
+</body>
+</html>
