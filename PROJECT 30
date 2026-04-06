@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Array Sort</title>
+
+    <style>
+        body {
+            background-color: #c7d8f0;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        h2 {
+            color: #5b7592;
+        }
+
+        p {
+            color: #333;
+        }
+
+        button {
+            background-color: #450f06;
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1f5fa5;
+        }
+
+        #result, #product_value {
+            background-color: #ffffff;
+            border: 2px solid #2b7cd3;
+            padding: 10px;
+            width: 300px;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>JS ARRAY SORT</h2>
+
+<p>Click the button to sort the array in ascending or descending order.</p>
+<p>Multiply every element in the array by 10.</p>
+
+<button onclick="ascending()">Ascending</button>
+<button onclick="descending()">Descending</button>
+<button onclick="multiply()">Multiply by 10</button>
+
+<p id="result"></p>
+<p id="product_value"></p>
+
+<script>
+
+var points = [40, 90, 56, 300, 23];
+document.getElementById("result").innerHTML = points;
+
+function ascending() {
+    points.sort(function(a, b) {
+        return a - b;
+    });
+    document.getElementById("result").innerHTML = points;
+}
+
+function descending() {
+    points.sort(function(a, b) {
+        return b - a;
+    });
+    document.getElementById("result").innerHTML = points;
+}
+
+var numbers = [78, 45, 66, 29, 97];
+
+function multiply() {
+    var newarray = numbers.map(function(num) {
+        return num * 10;
+    });
+    document.getElementById("product_value").innerHTML = newarray;
+}
+
+</script>
+
+</body>
+</html>

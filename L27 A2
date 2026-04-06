@@ -2,9 +2,8 @@
 <body>
     <p> Multiply every element in the array with 10; </p>
 
-<p id="product_value"></p>
 <script>
-
+<p id = "result"></p>
     var numbers = [78 , 45 , 66 , 29 , 97];
 
     function myfunction(num) {
