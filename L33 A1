@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title> Creating our own page </title>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 4;
+            background-color: blanchedalmond;
+        }
+        nav{
+            background-color: brown;
+            padding: 10%;
+            text-align: right;
+        }
+        nav a:hover {
+            color: black;
+            margin: 1%;
+            text-decoration: underline;
+            font-size: medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 400;
+        }
+        header {
+            color: blue;
+            background-color: aliceblue;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: solid;
+            text-align: left;
+        }
+        .container {
+            text-align: left;
+            color: brown;
+            background-color: antiquewhite;
+            border-radius: 15%;
+            box-sizing: content-box;
+            box-shadow: 2px 25px color(srgb rgb(220, 179, 179) green blue);
+        }
+        .profile {
+            background-color: aliceblue;
+            color: black;
+            text-align: right;
+        }
+        .profile.img {
+            width: 30px;
+            border-radius: 15%px;
+            border-color: azure;
+        }
+        h2 {
+            color: black;
+            text-decoration: solid;
+        }
+        button {
+            padding: 35px 55px;
+           background-color: rgb(195, 248, 230);
+           border: none;
+           color: rgb(50, 9, 89);
+           cursor: pointer;
+           border-radius: 3px;
+        }
+        button:hover {
+           background-color: beige ;
+           text-decoration: underline;
+           color: blue;
+        }
+        #extra {
+            display: none;
+            margin-bottom: 6px;
+            padding: 30px;
+        }
+        footer {
+            text-align: center;
+            color: rgb(101, 17, 17);
+            padding: 20px;
+            margin-left: 12px;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <header>
+        <h1>about us</h1>
+        <p> Learn more about our journey</p>
+    </header>
+    <div class="container">
+        <img src="IMAGE 4.webp" alt="PROFILE IMAGE">
+        <h2> OUR TEAM</h2>
+    </div>
+    <h2>WHO WE ARE ?</h2>
+    <p>
+        We are an online platform that enables a new world for coding-enthusiasm , Software developers and Web project builders !
+    </p>
+
+    <h2> OUR MISSION</h2>
+    <p> So that coding is made fun , creative and accessible for everyone. </p>
+    <button onclick="toggleText()">Read more</button>
+    
+<p id="extra">
+
+We believe consistent practice helps you master programming. Keep learning, keep building, and never give up!
+
+</p>
+
+</div>
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 My Website | All Rights Reserved</p>
+
+</footer>
+
+<!-- JavaScript -->
+
+<script>
+
+function toggleText() {
+
+var text = document.getElementById("extra");
+
+if (text.style.display === "none") {
+
+text.style.display = "block";
+
+} else {
+
+text.style.display = "none";
+
+}
+
+}
+
+</script>
+
+</body>
+
+</html>
+</body>
+
