@@ -1,0 +1,119 @@
+<html>
+<head>
+    <title>Async Await Demo</title>
+
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content:center;
+            align-items:center;
+            font-family:Arial, sans-serif;
+            background:linear-gradient(135deg,#53d4da,#ffe5ec,#57317a);
+        }
+
+        .container{
+            width:420px;
+            background:white;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.15);
+            text-align:center;
+        }
+
+        h1{
+            color:#420c06;
+            margin-bottom:10px;
+        }
+
+        p{
+            color:#591212;
+            line-height:1.5;
+        }
+
+        button{
+            margin-top:20px;
+            padding:12px 25px;
+            border:none;
+            border-radius:12px;
+            background:linear-gradient(to right,#c77dff,#9d4edd);
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        button:hover{
+            transform:scale(1.05);
+        }
+
+        #output{
+            margin-top:20px;
+            padding:15px;
+            border-radius:12px;
+            background:#f8edff;
+            color:#5a189a;
+            font-weight:bold;
+            min-height:40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Async & Await</h1>
+
+        <p>
+            Click the button to perform an asynchronous calculation
+            and display the result using async and await.
+        </p>
+
+        <button onclick="showResult()">
+            Start Calculation
+        </button>
+
+        <div id="output">
+            Waiting for result...
+        </div>
+
+    </div>
+
+    <script>
+
+        // Asynchronous function
+        function calculateSum() {
+
+            return new Promise((resolve) => {
+
+                setTimeout(() => {
+
+                    let sum = 15 + 25;
+
+                    resolve(sum);
+
+                }, 2000);
+
+            });
+
+        }
+
+        // Async function using await
+        async function showResult() {
+
+            document.getElementById("output").innerHTML =
+                "⏳ Calculating...";
+
+            let result = await calculateSum();
+
+            document.getElementById("output").innerHTML =
+                "✅ Result = " + result;
+
+        }
+
+    </script>
+
+</body>
+</html>
