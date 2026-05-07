@@ -1,0 +1,95 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Try Catch Example</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #f8e8ff, #fff5f7);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        h1 {
+            color: #7b2cbf;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        #message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 12px;
+            background-color: #ffe5ec;
+            color: #d00000;
+            font-weight: bold;
+            border: 2px solid #ffb3c1;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            background: #c77dff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #9d4edd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Try & Catch Demo</h1>
+        <p>Click the button to create an error and display the error message.</p>
+
+        <button onclick="showError()">Generate Error</button>
+
+        <div id="message"></div>
+    </div>
+
+    <script>
+        function showError() {
+
+            try {
+                let number = 25;
+                let result = number.toUpperCase();
+
+                document.getElementById("message").innerHTML = result;
+
+            } catch(error) {
+
+                document.getElementById("message").innerHTML =
+                    "⚠ Error Message: " + error.message;
+
+            }
+
+        }
+    </script>
+
+</body>
+</html>
