@@ -1,0 +1,79 @@
+<html>
+    <head>
+
+    
+<style>
+    
+    .chic-footer {
+        background: #002B2E; 
+        color: #E0F2F1;
+        font-family: 'Georgia', serif;
+        padding: 40px 10%;
+        text-align: center;
+    }
+
+   
+    .socials {
+        margin-bottom: 30px;
+    }
+
+    .socials a {
+        color: #C5A059; 
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .socials a:hover {
+        color: #98D8AA; 
+    }
+
+
+    .info-grid {
+        border-top: 1px solid rgba(255,255,255,0.1);
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .info-grid div {
+        max-width: 250px;
+    }
+
+    .brand {
+        font-size: 1.5rem;
+        font-style: italic;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        opacity: 0.8;
+    }
+</style>
+
+<footer class="chic-footer">
+    <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">Journal</a>
+    </div>
+
+    <div class="info-grid">
+        <div>
+            <span class="brand">Susan’s Kitchen</span>
+            <p>Purely plants. Purely elegant.</p>
+        </div>
+        <div>
+            <p>123 Emerald Way, CA<br>hello@susans.veg</p>
+        </div>
+    </div>
+</footer>
+    </head>
+</html>
