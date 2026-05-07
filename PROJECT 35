@@ -1,0 +1,116 @@
+<style>
+    /* New Styles for Portfolio Section */
+    :root {
+        --portfolio-bg: #fdfdfd;
+        --card-shadow: rgba(0, 0, 0, 0.1);
+        --mint-green: #98D8AA;
+        --salmon-pink: #FF6B6B;
+    }
+
+    .portfolio-section {
+        padding: 80px 10%;
+        background-color: var(--portfolio-bg);
+        text-align: center;
+    }
+
+    .portfolio-header h2 {
+        font-size: 2.5rem;
+        color: #2d3436;
+        margin-bottom: 10px;
+    }
+
+    .underline {
+        width: 80px;
+        height: 5px;
+        background: var(--salmon-pink);
+        margin: 0 auto 40px;
+        border-radius: 10px;
+    }
+
+    /* The Portfolio Grid */
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    .portfolio-item {
+        background: white;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 10px 20px var(--card-shadow);
+        transition: transform 0.3s ease;
+    }
+
+    .portfolio-item:hover {
+        transform: translateY(-10px);
+    }
+
+    .portfolio-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-bottom: 4px solid var(--mint-green);
+    }
+
+    .portfolio-info {
+        padding: 20px;
+    }
+
+    .portfolio-info h3 {
+        margin: 0;
+        color: #2d3436;
+        font-size: 1.4rem;
+    }
+
+    .portfolio-info p {
+        color: #636e72;
+        font-size: 0.9rem;
+        margin: 10px 0;
+    }
+
+    .price-tag {
+        display: inline-block;
+        background: var(--mint-green);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+</style>
+
+<section class="portfolio-section">
+    <div class="portfolio-header">
+        <h2>Chef's Special Portfolio</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500&q=80" alt="Healthy Bowl" class="portfolio-image">
+            <div class="portfolio-info">
+                <h3>Garden Fresh Bowl</h3>
+                <p>A vibrant mix of organic greens, quinoa, and lemon-tahini dressing.</p>
+                <span class="price-tag">RS.465.00</span>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80" alt="Special Pizza" class="portfolio-image">
+            <div class="portfolio-info">
+                <h3>Sunset Margherita</h3>
+                <p>Hand-stretched dough topped with heritage tomatoes and fresh basil.</p>
+                <span class="price-tag">RS.780.00</span>
+            </div>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=500&q=80" alt="Dessert" class="portfolio-image">
+            <div class="portfolio-info">
+                <h3>Glazed Berry Donuts</h3>
+                <p>Signature artisan donuts topped with forest berry reduction.</p>
+                <span class="price-tag">RS.215.00</span>
+            </div>
+        </div>
+    </div>
+</section>
