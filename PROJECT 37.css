@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef2ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:380px;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+h1{
+    text-align:center;
+    color:#333;
+}
+
+p{
+    text-align:center;
+    color:gray;
+    margin-bottom:20px;
+}
+
+.balance-card{
+    background:linear-gradient(135deg,#6a5acd,#8a2be2);
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.card{
+    width:48%;
+    padding:15px;
+    border-radius:12px;
+    text-align:center;
+    color:white;
+}
+
+.income{
+    background:#28a745;
+}
+
+.expense{
+    background:#dc3545;
+}
+
+.form-box h2{
+    margin-bottom:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#6a5acd;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#4b3dbd;
+}
+
+.transactions{
+    margin-top:20px;
+}
+
+.transactions ul{
+    list-style:none;
+}
+
+.transactions li{
+    display:flex;
+    justify-content:space-between;
+    padding:12px;
+    background:#f8f8f8;
+    margin:8px 0;
+    border-radius:8px;
+}
+
+.green{
+    color:green;
+}

@@ -1,10 +1,12 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style6.css">
+    <script src="script1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
     <title>A simple calculator</title>
 </head>
 <body>
+   
     <div id="container">
         <div id="calculator">
             <div id="result">

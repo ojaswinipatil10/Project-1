@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style7.css">
+        <title> SIMPLE PROFILE</title>
+        <body>
+            <div class="Profile-Card">
+        <h1>Ojaswini Patil</h1>
+        <p class="Grade">10th Grade</p>
+        
+        <div class="hobbies-container">
+            <p class="Hobbies">Painting</p>
+            <p class="Hobbies">Sports</p>
+            <p class="Hobbies">Cooking</p>
+        </div>
+    </div>
+        </body>
+    </head>
+</html>
+
